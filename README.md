@@ -9,14 +9,17 @@ Uygulamada RestApi Json, SQLite, Firebase Push Notification ve Android SDK Tekon
 - Java 8
 - Spring 2.17.3
 - Mysql 8
+- Html 5
+- CSS
+- Bootstrap
     
 # Ugulama Özellikleri:
 - [x] Kullanıcı giriş
 - [x] Kullanıcı Kayıt
 - [x] Ürün Listeleme
-- [ ] Ürün Ekleme
-- [ ] Ürün Silme
-- [ ] Ürün Güncelleme
+- [x] Ürün Ekleme
+- [x] Ürün Silme
+- [x] Ürün Güncelleme
 
 ## Uygulama Note:
 ```
