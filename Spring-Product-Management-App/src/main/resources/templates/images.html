@@ -1,0 +1,75 @@
+<html lang="tr" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Images</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+</head>
+<body style="background-repeat: no-repeat; background-size: cover"
+      background="data:image/jpeg;base64,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">
+
+<div th:replace="inc/navbar.html"></div>
+
+
+<div class="container"><h2>Images Add</h2>
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+            <form method="post" enctype="multipart/form-data" action="/imagesAdd">
+                <div class="mb-3">
+                    <label style="color: white" for="formFile" class="form-label">Image</label>
+                    <input name="image" required accept="image/png, image/jpeg" class="form-control" type="file"
+                           id="formFile">
+                </div>
+                <button style="background-color: salmon;border-top-left-radius: 30px " type="submit"
+                        class="btn btn-primary">Save
+                </button>
+            </form>
+        </div>
+    </div>
+    <div style="color: white" class="table-responsive">
+        <table style="color: white" class="table table-hover">
+            <thead>
+            <tr style="color: white">
+                <th scope="col">ID</th>
+                <th scope="col">PID</th>
+                <th scope="col">File</th>
+                <th scope="col">Delete</th>
+            </tr>
+            </thead>
+            <tbody style="color: white" th:if="${images != null}">
+            <tr style="color: white" th:each="item,iter : ${images}">
+                <th scope="row" th:text="${item.iid}"></th>
+                <th scope="row" th:text="${item.pid}"></th>
+
+
+                <td><img th:src="@{${'/getImage/'+ iter.index}}"
+                         class="card img-fluid" style="width:300px" alt=""/>
+                </td>
+
+
+                <td>
+                    <a th:href="${'/imageDelete/'+item.pid}" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+            </tbody>
+
+        </table>
+
+
+    </div>
+</div>
+</body>
+</html>

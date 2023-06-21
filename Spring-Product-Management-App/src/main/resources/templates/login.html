@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="tr" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="tr" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="STYLE.css">
+
+</head>
+<body style="background-repeat: no-repeat; background-size: cover"
+      background="data:image/jpeg;base64,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">
+<section class="h-100 gradient-form" style="background-color: #eee;">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-xl-10">
+                <div class="card rounded-3 text-black">
+                    <div class="row g-0">
+                        <div class="col-lg-6">
+                            <div class="card-body p-md-5 mx-md-4">
+
+                                <div class="text-center">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh523gkbB57kHZnQ0X-UsuoeIYSIMNzN34XA&usqp=CAU"
+                                         style="width: 185px;" alt="logo">
+                                    <h4 class="mt-1 mb-5 pb-1">We are Product Team</h4>
+                                </div>
+
+                                <form method="post" action="/userLogin">
+                                    <p>Please login to your account</p>
+
+                                    <div class="form-outline mb-4">
+                                        <label for="name" class="form-label">Admin Name</label>
+                                        <input name="name" type="text" class="form-control" id="name"
+                                               aria-describedby="name">
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                                        <input name="password" type="password" class="form-control"
+                                               id="exampleInputPassword1">
+                                    </div>
+
+                                    <div class="text-center pt-1 mb-5 pb-1">
+                                        <button style="border-bottom-right-radius: 10px;border-top-left-radius: 10px; background: #1c1e19"
+                                                type="submit" class="btn btn-primary">Submit
+                                        </button>
+
+                                        <a class="text-muted" href="#!">Forgot password?</a>
+                                    </div>
+
+                                    <div class="d-flex align-items-center justify-content-center pb-4">
+                                        <p class="mb-0 me-2">Don't have an account?</p>
+                                        <button style="background:#ecec0b" type="button" class="btn btn-outline-danger">
+                                            Create new
+                                        </button>
+                                    </div>
+
+                                </form>
+
+                            </div>
+                        </div>
+                        <div style="background:#ce5d5d" class="col-lg-6 d-flex align-items-center gradient-custom-2">
+                            <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+                                <h1 class="mb-4">We are more than just a company</h1>
+                                <h3 class="mb-4">Product add and safety is our business</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+</body>
+</html>
+
+
+</body>
+</html>
