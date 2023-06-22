@@ -2,7 +2,7 @@
 <p> 
 In the product management application, after saving the user's entry in a business, it is possible to switch to the product table. It is possible to delete, undo, update any product from the product lists. Pictures can be added according to the ID of the products. It offers all these processes with a dynamic service related to each other.
 
-JAVA, SPRING BOOT, MYSQL, THYMELEAF,HTML 5,CSS,BOOTSTRAP technologies are used in the application.
+JAVA, SPRING BOOT, MYSQL, THYMELEAF, HTML 5, CSS, BOOTSTRAP technologies are used in the application.
 </p>
 
 # Software Versions:
