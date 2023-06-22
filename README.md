@@ -1,8 +1,8 @@
 # Spring-Product-Management-App
 <p> 
-It allows a business to interact with all relevant users by adding, deleting and updating users under administrator control. It is an application that enables the personnel to use the ability to upload, delete and list product information, product images, and product information as a dynamic service.
+In the product management application, after saving the user's entry in a business, it is possible to switch to the product table. It is possible to delete, undo, update any product from the product lists. Pictures can be added according to the ID of the products. It offers all these processes with a dynamic service related to each other.
 
-JAVA, SPRING BOOT, THYMELEAF,HTML 5,CSS,MYSQL technologies are used in the application.
+JAVA, SPRING BOOT, MYSQL, THYMELEAF,HTML 5,CSS,BOOTSTRAP technologies are used in the application.
 </p>
 
 # Software Versions:
@@ -48,7 +48,7 @@ In this application, session cookie and encryption with GoogleTink are used.
     <img src="PRODUCT MANAGEMENT/UPDATE.png" style="max-width:100%;"> 
 </a>
        <a>
-    <img src="PRODUCT MANAGEMENT/SEARCH.png" style="max-width:100%;"> 
+    <img src="PRODUCT MANAGEMENT/SEARCH .png" style="max-width:100%;"> 
 </a>
        <a >
     <img src="PRODUCT MANAGEMENT/IMAGE ADD.png" style="max-width:100%;"> 
